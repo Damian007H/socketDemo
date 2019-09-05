@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_left_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_left_head"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            tools:src="@drawable/right_head" />
+
+        <TextView
+            android:id="@+id/tv_left_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_left_head"
+            tools:text="你是世界上吸嘴手动阀手动阀加点水立方杰拉德设计费你是世界上吸嘴手动阀手动阀加点水立方杰拉德设计费你是世界上吸嘴手动阀手动阀加点水立方杰拉德设计费你是世界上吸嘴手动阀手动阀加点水立方杰拉德设计费你是世界上吸嘴手动阀手动阀加点水立方杰拉德设计费" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_right_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_right_head"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            tools:src="@drawable/right_head"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_right_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/iv_right_head"
+            tools:text="你是世界上吸嘴手动阀手动阀加点水立方杰拉德设计费你是世界上吸嘴手动阀手动阀加点水立方杰拉德设计费你是世界上吸嘴手动阀手动阀加点水立方杰拉德设计费你是世界上吸嘴手动阀手动阀加点水立方杰拉德设计费你是世界上吸嘴手动阀手动阀加点水立方杰拉德设计费" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
